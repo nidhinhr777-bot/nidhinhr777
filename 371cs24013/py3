@@ -1,0 +1,33 @@
+#programe to demonstret working of dictionarydict={}
+dict={}
+print("empty dictionary")
+print(dict)
+
+#acess dictionary items
+country_capitals={'germany':'berlin','canada':'ottawa','england':'london'}
+print(country_capitals['germany'])
+print(country_capitals['england'])
+
+#add items to a dictionary
+country_capitals={'germany':'berlin','canada':'ottawa','england':'london'}
+country_capitals['italy']='rome'
+print(country_capitals)
+
+#remove dictionary items
+country_capitals={'germany':'berlin','canada':'ottawa','england':'london'}
+del(country_capitals['germany'])
+print(country_capitals)
+
+#change dictionary item
+country_capitals={'germany':'berlin','canada':'ottawa','england':'london'}
+country_capitals['england']='rome'
+print(country_capitals)
+
+#get dictionary length
+numbers={10:'ten',20:'twenty',30:'thirty',40:'fourty'}
+print(len(numbers))
+
+#remove all elements
+numbers.clear()
+print(numbers)
+

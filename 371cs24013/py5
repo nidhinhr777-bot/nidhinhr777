@@ -1,0 +1,9 @@
+#programe to demonstret working of sets
+
+#create a set of integer tupe
+sid=[201,301,401,501,601,701,801]
+print('student id:',sid)
+
+#string type
+v_letters['a','e','i','o','u']
+print('vowel letters:'v_letters)

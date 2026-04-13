@@ -1,0 +1,26 @@
+#programme to demonstret working of tuple
+tup=()
+print(tup)
+
+#using list
+l1=[1,2,3,4,5,6]
+print(tuple(l1))
+tup=(5,'wellcome',6,7,'python')
+print(tup)
+
+#creating tuple with nested tuples
+tup1=(0,1,2,3,4)
+tup2=('ds','python')
+tup3=(tup1,tup2)
+print(tup3)
+
+#creating tuple with repetition
+tup=['python']*3
+print(tuple(tup))
+
+#creating tuple with loop
+tup=('python')
+n=5
+for i in range(int(n)):
+    tup=(tup)
+    print(tup)
